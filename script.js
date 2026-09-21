@@ -20,7 +20,7 @@ class Rectangle {
 
 class Square extends Rectangle {
 	 constructor(side){
-		 super(side, side);
+		 super(this.side, this.side);
 		 this.width = super.width();
 		 this.getHeight = super.height();
 		 this.side = side;
