@@ -5,11 +5,11 @@ class Rectangle {
 		 this.width = width;
 	 }
 
-	 getWidth(){
+	 get width(){
 		 return this.width;
 	 }
 
-     getHeight(){
+     get height(){
 		 return this.height;
 	 }
 
@@ -20,8 +20,8 @@ class Rectangle {
 
 class Square extends Rectangle {
 	 constructor(side){
-		 this.width = super.getWidth;
-		 this.getHeight = super.getHeight;
+		 this.width = super.width();
+		 this.getHeight = super.height();
 		 this.side = side;
 	 }
 
